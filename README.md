@@ -1,2 +1,3 @@
 # sql_library_manager
-Project utilizing sqlite and sequalize.
+
+Project demonstrating the usage of sequalize ORM. Uses sqlite.
