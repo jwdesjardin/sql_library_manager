@@ -4,7 +4,7 @@ block content
   include search
   h1 Books
   p
-    a.button(href='/books/new') Create New Book
+    a.button(href='/books') See All Books
   table
     thead
       tr
@@ -15,13 +15,11 @@ block content
 
     tbody
       each bk in books
-        tr.rowClass
+        tr
           td
             a(href=`/books/${bk.id}`) #{bk.title}
           td= bk.author 
           td= bk.genre 
           td= bk.year
-
-  
 
     
